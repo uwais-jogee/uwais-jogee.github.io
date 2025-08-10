@@ -36,7 +36,7 @@ export default function HeroSection() {
                             <button className="p-[3px] relative">
                                 <div
                                     className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-emerald-500 rounded-lg"/>
-                                <a href="mailto:uwaisjogee@outlook.com"
+                                <a href="www.linkedin.com/in/uwais-jogee"
                                    className="px-6 py-2  bg-white dark:bg-black rounded-[6px] relative group transition duration-300 dark:text-white hover:bg-transparent dark:hover:bg-transparent active:bg-transparent dark:active:bg-transparent flex justify-center">
                                     <span className="flex items-center gap-2">
                                         <Icons.linkedin className="size-5 sm:size-8"/>
