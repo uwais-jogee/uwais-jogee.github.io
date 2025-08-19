@@ -25,6 +25,6 @@ Hosted on GitHub Pages
 - UI Components: Shadcn, Magic UI, Aceternity UI
 
 
-## Author
+## 🧑‍💻 Author
 
 Uwais Jogee | [GitHub](https://github.com/uwais-jogee)
