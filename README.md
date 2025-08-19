@@ -2,10 +2,11 @@
 
 A modern, responsive portfolio website built to showcase my projects, skills, and experience.
 
+
 ## 🌐 Live Site
 
-[View Live Site](https://uwais-jogee.github.io/)
-
+[View Live Site](https://uwais-jogee.github.io/)    
+Hosted on GitHub Pages
 
 ## ✨ Features
 
