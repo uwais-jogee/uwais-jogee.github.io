@@ -22,7 +22,7 @@ export default function ProjectsSection() {
                                 className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
-                                <div className="relative w-full h-64 rounded-t-lg overflow-hidden">
+                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/placement-management-system.png"
                                            alt="Screenshot of Placement Management System"
                                            layout="fill"
@@ -64,7 +64,7 @@ export default function ProjectsSection() {
                                 className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
-                                <div className="relative w-full h-64 rounded-t-lg overflow-hidden">
+                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/airbnb-price-prediction-ml-model.png"
                                            alt="Screenshot of Airbnb Price Prediction Machine Learning Model"
                                            layout="fill"
@@ -103,7 +103,7 @@ export default function ProjectsSection() {
                                 className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
-                                <div className="relative w-full h-64 rounded-t-lg overflow-hidden">
+                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/personal-portfolio-website.png"
                                            alt="Screenshot of Personal Portfolio Website"
                                            layout="fill"
@@ -134,13 +134,49 @@ export default function ProjectsSection() {
                             </Card>
                         </CarouselItem>
 
+                        {/*Connect 4 Game with AI Opponent*/}
+                        <CarouselItem className="md:basis-1/2">
+                            <Card
+                                className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
+                                <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
+                                {/*Image container*/}
+                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
+                                    <Image src="/images/connect-4.png"
+                                           alt="Screenshot of Connect 4 Game with AI Opponent"
+                                           layout="fill"
+                                           objectFit="cover"
+                                           className=""
+                                    />
+                                </div>
+                                {/*Title and Description container*/}
+                                <div className="mx-4">
+                                    <CardTitle
+                                        className="text-xl sm:text-2xl font-bold text-neutral-800 dark:text-neutral-100 pb-3">
+                                        Connect 4 Game with AI Opponent
+                                    </CardTitle>
+                                    <CardContent className="pb-6">
+                                        <div className="flex flex-col gap-3">
+                                            <CardDescription className="text-sm md:text-base">
+                                                An interactive Connect 4 game featuring local multiplayer and an AI
+                                                opponent, powered by the Minimax algorithm. Users can create accounts,
+                                                track scores, and compete on a leaderboard.
+                                            </CardDescription>
+                                            <div className="flex flex-wrap gap-3">
+                                                <TechIconSmall name="Python" icon={Icons.python}/>
+                                            </div>
+                                        </div>
+                                    </CardContent>
+                                </div>
+                            </Card>
+                        </CarouselItem>
+
                         {/*Petition Platform*/}
                         <CarouselItem className="md:basis-1/2">
                             <Card
                                 className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
-                                <div className="relative w-full h-64 rounded-t-lg overflow-hidden">
+                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/"
                                            alt="Screenshot of Petition Platform"
                                            layout="fill"
@@ -177,7 +213,7 @@ export default function ProjectsSection() {
                                 className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
-                                <div className="relative w-full h-64 rounded-t-lg overflow-hidden">
+                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/"
                                            alt="Screenshot of Stock Market Simulator"
                                            layout="fill"
@@ -210,7 +246,7 @@ export default function ProjectsSection() {
                                 className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
-                                <div className="relative w-full h-64 rounded-t-lg overflow-hidden">
+                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/"
                                            alt="Screenshot of Task Management Application"
                                            layout="fill"
@@ -232,39 +268,6 @@ export default function ProjectsSection() {
                                                 <TechIconSmall name="HTML" icon={Icons.html}/>
                                                 <TechIconSmall name="CSS" icon={Icons.css}/>
                                                 <TechIconSmall name="JavaScript" icon={Icons.javaScript}/>
-                                            </div>
-                                        </div>
-                                    </CardContent>
-                                </div>
-                            </Card>
-                        </CarouselItem>
-
-                        {/*Connect 4 Game with AI Opponent*/}
-                        <CarouselItem className="md:basis-1/2">
-                            <Card
-                                className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
-                                <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
-                                {/*Image container*/}
-                                <div className="relative w-full h-64 rounded-t-lg overflow-hidden">
-                                    <Image src="/"
-                                           alt="Screenshot of Connect 4 Game with AI Opponent"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
-                                    />
-                                </div>
-                                {/*Title and Description container*/}
-                                <div className="mx-4">
-                                    <CardTitle
-                                        className="text-xl sm:text-2xl font-bold text-neutral-800 dark:text-neutral-100 pb-3">
-                                        Connect 4 Game with AI Opponent
-                                    </CardTitle>
-                                    <CardContent className="pb-6">
-                                        <div className="flex flex-col gap-3">
-                                            <CardDescription className="text-sm md:text-base">
-                                            </CardDescription>
-                                            <div className="flex flex-wrap gap-3">
-                                                <TechIconSmall name="Python" icon={Icons.python}/>
                                             </div>
                                         </div>
                                     </CardContent>
