@@ -53,7 +53,7 @@ export default function HeroSection() {
                         <div
                             className="relative w-54 h-78 sm:w-72 md:h-104 lg:w-90 lg:h-130 overflow-hidden shadow-xl">
                             <Image
-                                src="/images/portfolio-image.jpg"
+                                src="/images/profile.jpg"
                                 alt="Profile Picture"
                                 layout="fill"
                                 objectFit="cover"
