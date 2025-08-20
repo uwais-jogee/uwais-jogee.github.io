@@ -39,7 +39,7 @@ export default function ProjectsSection() {
                                     <CardContent className="pb-6">
                                         <div className="flex flex-col gap-3">
                                             <CardDescription className="text-sm md:text-base">
-                                                A web application for universities and students to manage and oversee
+                                                A full-stack web application for universities and students to manage and oversee
                                                 the industrial placement process. Key placement related tasks including
                                                 placement authorisation requests, communication, tutor visit scheduling,
                                                 and placement data management are centralised and automated to improve
@@ -81,12 +81,10 @@ export default function ProjectsSection() {
                                     <CardContent className="pb-6">
                                         <div className="flex flex-col gap-3">
                                             <CardDescription className="text-sm md:text-base">
-                                                Co-developed a machine learning model to predict nightly Airbnb property
-                                                prices after exploring and cleansing the large dataset. Implemented
-                                                feature encoding, normalisation, and a Random Forest regression model
-                                                tuned with Randomised Search Cross-Validation to minimise overfitting.
-                                                Applied K-Means clustering to group properties and improve performance
-                                                through cluster-based regression models.
+                                                A machine learning project for predicting nightly Airbnb prices,
+                                                featuring Random Forest regression optimised with Randomised Search
+                                                Cross-Validation and improved performance through cluster-based modeling
+                                                using K-Means clustering.
                                             </CardDescription>
                                             <div className="flex flex-wrap gap-3">
                                                 <TechIconSmall name="Python" icon={Icons.python}/>
@@ -177,7 +175,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/"
+                                    <Image src="/images/petition-platform.png"
                                            alt="Screenshot of Petition Platform"
                                            layout="fill"
                                            objectFit="cover"
@@ -193,6 +191,10 @@ export default function ProjectsSection() {
                                     <CardContent className="pb-6">
                                         <div className="flex flex-col gap-3">
                                             <CardDescription className="text-sm md:text-base">
+                                                A full-stack web application that enables citizens to create, sign, and
+                                                track petitions with secure QR code based registration and role-based
+                                                access. Includes dashboards for petition management, responses,
+                                                signature tracking, and a RESTful Open Data API for petition records.
                                             </CardDescription>
                                             <div className="flex flex-wrap gap-3">
                                                 <TechIconSmall name="Java" icon={Icons.java}/>
@@ -214,7 +216,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/"
+                                    <Image src="/images/stock-market-simulator.png"
                                            alt="Screenshot of Stock Market Simulator"
                                            layout="fill"
                                            objectFit="cover"
@@ -230,6 +232,11 @@ export default function ProjectsSection() {
                                     <CardContent className="pb-6">
                                         <div className="flex flex-col gap-3">
                                             <CardDescription className="text-sm md:text-base">
+                                                A program simulating the processing of buy and sell orders for a single
+                                                company, handling market and limit orders with priority-based matching.
+                                                Executes trades according to order type and arrival time, supports
+                                                partial order fulfillment, updates pending orders in real-time, and logs
+                                                executed and unexecuted orders to output files.
                                             </CardDescription>
                                             <div className="flex flex-wrap gap-3">
                                                 <TechIconSmall name="C++" icon={Icons.cpp}/>
@@ -240,46 +247,13 @@ export default function ProjectsSection() {
                             </Card>
                         </CarouselItem>
 
-                        {/*Task Management Application*/}
-                        <CarouselItem className="md:basis-1/2">
-                            <Card
-                                className="relative overflow-hidden w-full p-0.5 gap-5.5 transition-transform duration-300 hover:scale-[1.01] hover:shadow-lg">
-                                <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
-                                {/*Image container*/}
-                                <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/"
-                                           alt="Screenshot of Task Management Application"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
-                                    />
-                                </div>
-                                {/*Title and Description container*/}
-                                <div className="mx-4">
-                                    <CardTitle
-                                        className="text-xl sm:text-2xl font-bold text-neutral-800 dark:text-neutral-100 pb-3">
-                                        Task Management Application
-                                    </CardTitle>
-                                    <CardContent className="pb-6">
-                                        <div className="flex flex-col gap-3">
-                                            <CardDescription className="text-sm md:text-base">
-                                            </CardDescription>
-                                            <div className="flex flex-wrap gap-3">
-                                                <TechIconSmall name="HTML" icon={Icons.html}/>
-                                                <TechIconSmall name="CSS" icon={Icons.css}/>
-                                                <TechIconSmall name="JavaScript" icon={Icons.javaScript}/>
-                                            </div>
-                                        </div>
-                                    </CardContent>
-                                </div>
-                            </Card>
-                        </CarouselItem>
-
                     </CarouselContent>
+
                     <div className="flex items-center justify-center gap-6">
                         <CarouselPrevious className="relative inset-auto size-10 md:size-13 hover:cursor-pointer"/>
                         <CarouselNext className="relative inset-auto size-10 md:size-13 hover:cursor-pointer"/>
                     </div>
+
                 </Carousel>
             </div>
         </section>
