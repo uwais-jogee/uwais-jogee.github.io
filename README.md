@@ -9,7 +9,7 @@ A modern, responsive portfolio website built to showcase my projects, skills, an
 
 Hosted on GitHub Pages
 
-## ✨ Features
+## ⚡ Features
 
 * **Responsive Design:** Looks great on desktop, tablet, and mobile devices.
 * **Dark/Light Mode Toggle:** Switch between dark and light themes seamlessly.
