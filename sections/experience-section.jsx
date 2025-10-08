@@ -8,7 +8,23 @@ export default function ExperienceSection() {
 
     const data = [
         {
-            title: "November 2021 - Present",
+            title: "October 2025 - Present",
+            content: (
+                <div>
+                    <div className="flex items-center gap-6 sm:gap-12">
+                        <ExperienceLogo name="AtkinsRéalis" icon={Icons.atkinsRealis}/>
+                        <div>
+                            <h3 className="text-base sm:text-xl font-bold">Graduate Software Engineer</h3>
+                            <h4 className="text-sm sm:text-lg font-semibold">AtkinsRéalis</h4>
+                        </div>
+                    </div>
+                    <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
+                    </p>
+                </div>
+            ),
+        },
+        {
+            title: "November 2021 - August 2025",
             content: (
                 <div>
                     <div className="flex items-center gap-6 sm:gap-12">
@@ -19,7 +35,7 @@ export default function ExperienceSection() {
                         </div>
                     </div>
                     <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
-                        Applying strong communication and technical problem-solving skills to meet customer needs while providing excellent customer service.
+                        Applied strong communication and technical problem-solving skills to meet customer needs while providing excellent customer service.
                     </p>
                 </div>
             ),
