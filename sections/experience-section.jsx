@@ -19,6 +19,7 @@ export default function ExperienceSection() {
                         </div>
                     </div>
                     <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
+                        Developing impactful software solutions by applying technical expertise, problem-solving skills, and collaborative teamwork to address real-world client challenges.
                     </p>
                 </div>
             ),

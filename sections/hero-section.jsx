@@ -17,8 +17,7 @@ export default function HeroSection() {
                     </h1>
                     <h3 className="sm:text-lg md:text-xl font-medium text-neutral-800 dark:text-neutral-200">
                         <BlurFade delay={1} duration={0.8} direction="up">
-                            A recent Computer Science graduate and aspiring Software Engineer, with a passion for
-                            building intuitive solutions to real-world problems.
+                            Software Engineer and BSc Computer Science graduate, passionate about building intuitive solutions to real-world problems.
                         </BlurFade>
                     </h3>
                     <BlurFade delay={1} duration={0.8} direction="up">
