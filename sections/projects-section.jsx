@@ -124,6 +124,7 @@ export default function ProjectsSection() {
                                             <div className="flex flex-wrap gap-3">
                                                 <TechIconSmall name="JavaScript" icon={Icons.javaScript}/>
                                                 <TechIconSmall name="Next.js" icon={Icons.nextjs}/>
+                                                <TechIconSmall name="React" icon={Icons.react}/>
                                                 <TechIconSmall name="Tailwind CSS" icon={Icons.tailwind}/>
                                             </div>
                                         </div>
