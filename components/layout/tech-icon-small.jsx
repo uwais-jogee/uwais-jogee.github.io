@@ -1,7 +1,7 @@
 import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
 import {useState} from "react";
 
-export function TechIconSmall = React.memo(function TechIconSmall({ name, icon: IconComponent}) {
+export const TechIconSmall = React.memo(function TechIconSmall({ name, icon: IconComponent}) {
     return (
         <Tooltip>
             <TooltipTrigger asChild>
