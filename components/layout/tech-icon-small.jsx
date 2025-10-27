@@ -1,13 +1,16 @@
 import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
-import {memo} from "react";
+import {useState, memo} from "react";
 
-export const TechIconSmall = memo(function TechIconSmall({ name, icon: IconComponent }) {
+export const TechIconSmall = memo(function TechIconSmall({ name, icon: IconComponent }) {\\
+    const [isOpen, setIsOpen] = useState(false);
+    
     return (
-        <Tooltip>
+        <Tooltip open={isOpen} onOpenChange={setIsOpen}>
             <TooltipTrigger asChild>
                 <button
                     type="button"
                     aria-label={name}
+                    onClick={() => setIsOpen(!isOpen)}
                     className="flex size-8 items-center justify-center rounded-full bg-transparent transition-colors hover:bg-neutral-100 dark:hover:bg-neutral-800 sm:size-9"
                 >
                     <IconComponent
