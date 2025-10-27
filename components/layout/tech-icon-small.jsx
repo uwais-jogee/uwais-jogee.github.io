@@ -1,7 +1,7 @@
 import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
 import {useState, memo} from "react";
 
-export const TechIconSmall = memo(function TechIconSmall({ name, icon: IconComponent }) {\\
+export const TechIconSmall = memo(function TechIconSmall({ name, icon: IconComponent }) {
     const [isOpen, setIsOpen] = useState(false);
     
     return (
