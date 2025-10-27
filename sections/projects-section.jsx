@@ -4,7 +4,7 @@ import React from 'react';
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
 import {Card, CardContent, CardDescription, CardTitle} from "@/components/ui/card";
 import {ShineBorder} from "@/components/ui/shine-border";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import {Icons} from "@/components/ui/icons";
 import {TechIconSmall} from "@/components/layout/tech-icon-small";
 
@@ -25,9 +25,9 @@ export default function ProjectsSection() {
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/placement-management-system.png"
                                            alt="Screenshot of Placement Management System"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
+                                           fill
+                                           className="object-cover"
+                                           loading="lazy"
                                     />
                                 </div>
                                 {/*Title and Description container*/}
@@ -67,9 +67,9 @@ export default function ProjectsSection() {
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/airbnb-price-prediction-ml-model.png"
                                            alt="Screenshot of Airbnb Price Prediction Machine Learning Model"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
+                                           fill
+                                           className="object-cover"
+                                           loading="lazy"
                                     />
                                 </div>
                                 {/*Title and Description container*/}
@@ -104,9 +104,9 @@ export default function ProjectsSection() {
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/personal-portfolio-website.png"
                                            alt="Screenshot of Personal Portfolio Website"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
+                                           fill
+                                           className="object-cover"
+                                           loading="lazy"
                                     />
                                 </div>
                                 {/*Title and Description container*/}
@@ -142,9 +142,9 @@ export default function ProjectsSection() {
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/connect-4.png"
                                            alt="Screenshot of Connect 4 Game with AI Opponent"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
+                                           fill
+                                           className="object-cover"
+                                           loading="lazy"
                                     />
                                 </div>
                                 {/*Title and Description container*/}
@@ -178,9 +178,9 @@ export default function ProjectsSection() {
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/petition-platform.png"
                                            alt="Screenshot of Petition Platform"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
+                                           fill
+                                           className="object-cover"
+                                           loading="lazy"
                                     />
                                 </div>
                                 {/*Title and Description container*/}
@@ -219,9 +219,9 @@ export default function ProjectsSection() {
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                     <Image src="/images/stock-market-simulator.png"
                                            alt="Screenshot of Stock Market Simulator"
-                                           layout="fill"
-                                           objectFit="cover"
-                                           className=""
+                                           fill
+                                           className="object-cover"
+                                           loading="lazy"
                                     />
                                 </div>
                                 {/*Title and Description container*/}
