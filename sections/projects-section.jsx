@@ -23,7 +23,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/images/placement-management-system.png"
+                                    <Image src="/images/placement-management-system.jpg"
                                            alt="Screenshot of Placement Management System"
                                            fill
                                            className="object-cover"
@@ -65,7 +65,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/images/airbnb-price-prediction-ml-model.png"
+                                    <Image src="/images/airbnb-price-prediction-ml-model.jpg"
                                            alt="Screenshot of Airbnb Price Prediction Machine Learning Model"
                                            fill
                                            className="object-cover"
@@ -102,7 +102,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/images/personal-portfolio-website.png"
+                                    <Image src="/images/personal-portfolio-website.jpg"
                                            alt="Screenshot of Personal Portfolio Website"
                                            fill
                                            className="object-cover"
@@ -140,7 +140,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/images/connect-4.png"
+                                    <Image src="/images/connect-4.jpg"
                                            alt="Screenshot of Connect 4 Game with AI Opponent"
                                            fill
                                            className="object-cover"
@@ -176,7 +176,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/images/petition-platform.png"
+                                    <Image src="/images/petition-platform.jpg"
                                            alt="Screenshot of Petition Platform"
                                            fill
                                            className="object-cover"
@@ -217,7 +217,7 @@ export default function ProjectsSection() {
                                 <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
                                 {/*Image container*/}
                                 <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
-                                    <Image src="/images/stock-market-simulator.png"
+                                    <Image src="/images/stock-market-simulator.jpg"
                                            alt="Screenshot of Stock Market Simulator"
                                            fill
                                            className="object-cover"
