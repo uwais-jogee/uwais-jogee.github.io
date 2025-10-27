@@ -19,4 +19,4 @@ export const TechIcon = React.memo(function TechIcon({ name, icon: IconComponent
             </TooltipContent>
         </Tooltip>
     );
-}
+)};
