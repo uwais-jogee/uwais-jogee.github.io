@@ -278,8 +278,8 @@ export default function ProjectsSection() {
                     </CarouselContent>
 
                     <div className="flex items-center justify-center gap-6">
-                        <CarouselPrevious className="relative inset-auto size-10 md:size-13 hover:cursor-pointer"/>
-                        <CarouselNext className="relative inset-auto size-10 md:size-13 hover:cursor-pointer"/>
+                        <CarouselPrevious className="relative inset-auto size-15 hover:cursor-pointer"/>
+                        <CarouselNext className="relative inset-auto size-15 hover:cursor-pointer"/>
                     </div>
 
                 </Carousel>

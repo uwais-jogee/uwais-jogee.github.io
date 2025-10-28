@@ -7,7 +7,7 @@ import {Icons} from "@/components/ui/icons";
 export default function HeroSection() {
     return (
         <section id="hero"
-                 className="flex flex-col min-h-screen mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 pb-21 pt-16 justify-center">
+                 className="flex flex-col min-h-screen mx-auto max-w-7xl px-6 sm:px-10 pb-21 pt-16 justify-center">
             <div className="grid grid-cols-1 md:grid-cols-[7fr_3fr] gap-x-22 gap-y-12 items-center">
                 <div className="flex flex-col text-center md:text-left gap-8 sm:gap-12">
                     <h1 className="text-7xl sm:text-8xl md:text-9xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-100 pb-2 sm:pb-4">
@@ -48,9 +48,9 @@ export default function HeroSection() {
                 <div className="relative flex justify-center">
                     <BlurFade delay={0.2} duration={0.8}>
                         <div
-                            className="absolute -z-10 translate-x-4 translate-y-4 w-54 h-78 sm:w-72 md:h-104 lg:w-90 lg:h-130 overflow-hidden shadow-lg bg-gradient-to-br from-cyan-400 to-emerald-500"></div>
+                            className="absolute -z-10 w-54 h-78 sm:w-72 md:h-104 lg:w-90 lg:h-130 overflow-hidden shadow-lg bg-gradient-to-br from-cyan-400 to-emerald-500"></div>
                         <div
-                            className="relative w-54 h-78 sm:w-72 md:h-104 lg:w-90 lg:h-130 overflow-hidden shadow-xl">
+                            className="relative -translate-x-4 -translate-y-4 w-54 h-78 sm:w-72 md:h-104 lg:w-90 lg:h-130 overflow-hidden shadow-xl">
                             <Image
                                 src="/images/profile.jpg"
                                 alt="Profile Picture"

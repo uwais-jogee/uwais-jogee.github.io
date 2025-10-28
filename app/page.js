@@ -10,7 +10,7 @@ export default function HomePage() {
     return (
         <main className="relative z-10">
             <HeroSection/>
-            <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 flex flex-col gap-28 pb-40">
+            <div className="mx-auto max-w-7xl px-6 sm:px-10 flex flex-col gap-28 pb-40">
                 <BlurFade inView={true} delay={0.2} duration={0.8}>
                     <SkillsSection/>
                 </BlurFade>
