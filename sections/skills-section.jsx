@@ -1,74 +1,74 @@
 "use client";
 import React from 'react';
-import {ShineBorder} from "@/components/ui/shine-border";
 import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
-import {Icons} from "@/components/ui/icons";
-import {TechIcon} from "@/components/layout/tech-icon";
 
 export default function SkillsSection() {
     return (
         <section id="skills" className="w-full">
             <h2 className="text-4xl sm:text-6xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">Skills</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-16 pt-16">
-                <Card className="relative overflow-hidden w-full gap-6">
-                    <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
-                    <CardHeader>
-                        <CardTitle
-                            className="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">Languages</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="flex flex-wrap gap-4">
-                            <TechIcon name="Python" icon={Icons.python}/>
-                            <TechIcon name="Java" icon={Icons.java}/>
-                            <TechIcon name="C++" icon={Icons.cpp}/>
-                            <TechIcon name="SQL" icon={Icons.sql}/>
-                            <TechIcon name="HTML" icon={Icons.html}/>
-                            <TechIcon name="CSS" icon={Icons.css}/>
-                            <TechIcon name="JavaScript" icon={Icons.javaScript}/>
-                            <TechIcon name="Bash" icon={Icons.bash}/>
-                            <TechIcon name="Powershell" icon={Icons.powershell}/>
-                        </div>
-                    </CardContent>
-                </Card>
-                <Card className="relative overflow-hidden w-full gap-6">
-                    <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
-                    <CardHeader>
-                        <CardTitle
-                            className="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">Frameworks
-                            & Libraries</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="flex flex-wrap gap-4">
-                            <TechIcon name="React" icon={Icons.react}/>
-                            <TechIcon name="Next.js" icon={Icons.nextjs}/>
-                            <TechIcon name="Node.js" icon={Icons.nodejs}/>
-                            <TechIcon name="Bootstrap" icon={Icons.bootstrap}/>
-                            <TechIcon name="Tailwind CSS" icon={Icons.tailwind}/>
-                            <TechIcon name="Spring" icon={Icons.spring}/>
-                            <TechIcon name="Thymeleaf" icon={Icons.thymeleaf}/>
-                        </div>
-                    </CardContent>
-                </Card>
-                <Card className="relative overflow-hidden w-full gap-6">
-                    <ShineBorder shineColor={["#22d3ee", "#10b981"]}/>
-                    <CardHeader>
-                        <CardTitle
-                            className="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">Platforms
-                            & Tools</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="flex flex-wrap gap-4">
-                            <TechIcon name="Git" icon={Icons.git}/>
-                            <TechIcon name="Docker" icon={Icons.docker}/>
-                            <TechIcon name="Android" icon={Icons.android}/>
-                            <TechIcon name="Azure" icon={Icons.azure}/>
-                            <TechIcon name="Google Cloud" icon={Icons.googleCloud}/>
-                            <TechIcon name="Jira" icon={Icons.jira}/>
-                            <TechIcon name="Confluence" icon={Icons.confluence}/>
-                            <TechIcon name="Postman" icon={Icons.postman}/>
-                        </div>
-                    </CardContent>
-                </Card>
+                <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                    <Card className="relative overflow-hidden w-full h-full gap-6">
+                        <CardHeader>
+                            <CardTitle
+                                className="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">Languages</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <div className="flex flex-wrap gap-6">
+                                <i className="devicon-python-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-java-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-cplusplus-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-azuresqldatabase-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-html5-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-css3-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-javascript-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-bash-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-powershell-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </div>
+                <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                    <Card className="relative overflow-hidden w-full h-full gap-6">
+                        <CardHeader>
+                            <CardTitle
+                                className="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">Frameworks
+                                & Libraries</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <div className="flex flex-wrap gap-4">
+                                <i className="devicon-spring-original-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-react-original-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-nextjs-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-nodejs-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-bootstrap-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-tailwindcss-original text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-thymeleaf-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </div>
+                <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                    <Card className="relative overflow-hidden w-full h-full gap-6">
+                        <CardHeader>
+                            <CardTitle
+                                className="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">Platforms
+                                & Tools</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <div className="flex flex-wrap gap-4">
+                                <i className="devicon-git-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-docker-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-android-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-azure-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-googlecloud-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-jira-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-confluence-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-postman-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </div>
             </div>
         </section>
     )
