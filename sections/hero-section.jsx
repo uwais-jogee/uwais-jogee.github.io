@@ -10,7 +10,7 @@ export default function HeroSection() {
                  className="flex flex-col min-h-screen mx-auto max-w-7xl px-6 sm:px-10 pb-21 pt-16 justify-center">
             <div className="grid grid-cols-1 md:grid-cols-[7fr_3fr] gap-x-22 gap-y-12 items-center">
                 <div className="flex flex-col text-center md:text-left gap-8 sm:gap-12">
-                    <h1 className="text-7xl sm:text-8xl md:text-9xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-100 pb-2 sm:pb-4">
+                    <h1 className="text-7xl sm:text-9xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-100 pb-2 sm:pb-4">
                         <BlurFade delay={0.2} duration={0.8}>
                             Uwais Jogee
                         </BlurFade>
@@ -23,21 +23,21 @@ export default function HeroSection() {
                     </h3>
                     <BlurFade delay={1} duration={0.8} direction="up">
                         <div className="flex gap-4 justify-center sm:justify-start">
-                            <button className="p-[3px] relative">
+                            <button className="p-0.5 relative">
                                 <div
                                     className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-emerald-500 rounded-lg"/>
                                 <a href="mailto:uwaisjogee@outlook.com"
-                                   className="px-6 py-2  bg-white dark:bg-black rounded-[6px] relative group transition duration-200 text-neutral-900 dark:text-neutral-100 hover:bg-transparent dark:hover:bg-transparent active:bg-transparent dark:active:bg-transparent flex justify-center">
-                        <span className="flex items-center gap-2">
-                            <Icons.email className="size-5 sm:size-8"/>
-                        </span>
+                                   className="px-6 py-2  bg-white dark:bg-black rounded-lg relative group transition duration-200 text-neutral-900 dark:text-neutral-100 hover:bg-transparent dark:hover:bg-transparent active:bg-transparent dark:active:bg-transparent flex justify-center">
+                                <span className="flex items-center gap-2">
+                                    <Icons.email className="size-5 sm:size-8"/>
+                                </span>
                                 </a>
                             </button>
-                            <button className="p-[3px] relative">
+                            <button className="p-0.5 relative">
                                 <div
                                     className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-emerald-500 rounded-lg"/>
                                 <a href="https://www.linkedin.com/in/uwais-jogee" target="_blank"
-                                   className="px-6 py-2  bg-white dark:bg-black rounded-[6px] relative group transition duration-300 text-neutral-900 dark:text-neutral-100 hover:bg-transparent dark:hover:bg-transparent active:bg-transparent dark:active:bg-transparent flex justify-center">
+                                   className="px-6 py-2 bg-white dark:bg-black rounded-lg relative group transition duration-300 text-neutral-900 dark:text-neutral-100 hover:bg-transparent dark:hover:bg-transparent active:bg-transparent dark:active:bg-transparent flex justify-center">
                                     <span className="flex items-center gap-2">
                                         <Icons.linkedin className="size-5 sm:size-8"/>
                                     </span>
