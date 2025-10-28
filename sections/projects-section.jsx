@@ -14,9 +14,9 @@ export default function ProjectsSection() {
                     <CarouselContent className="py-16 gap-10">
                         {/*Placement Management System*/}
                         <CarouselItem className="md:basis-1/2">
-                            <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                            <div className="p-0.5 relative rounded-2xl bg-gradient-to-r from-cyan-400 to-emerald-500">
                                 <Card
-                                    className="relative overflow-hidden w-full h-full p-0.5">
+                                    className="relative overflow-hidden w-full h-full p-0">
                                     {/*Image container*/}
                                     <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                         <Image src="/images/placement-management-system.jpg"
@@ -25,6 +25,8 @@ export default function ProjectsSection() {
                                                className="object-cover"
                                                loading="eager"
                                         />
+                                        <div
+                                            className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-card to-transparent pointer-events-none"/>
                                     </div>
                                     {/*Title and Description container*/}
                                     <div className="mx-4">
@@ -61,9 +63,9 @@ export default function ProjectsSection() {
 
                         {/*Airbnb Price Prediction Machine Learning Model*/}
                         <CarouselItem className="md:basis-1/2">
-                            <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                            <div className="p-0.5 relative rounded-2xl bg-gradient-to-r from-cyan-400 to-emerald-500">
                                 <Card
-                                    className="relative overflow-hidden w-full h-full p-0.5">
+                                    className="relative overflow-hidden w-full h-full p-0">
                                     {/*Image container*/}
                                     <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                         <Image src="/images/airbnb-price-prediction-ml-model.jpg"
@@ -72,6 +74,8 @@ export default function ProjectsSection() {
                                                className="object-cover"
                                                loading="eager"
                                         />
+                                        <div
+                                            className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-card to-transparent pointer-events-none"/>
                                     </div>
                                     {/*Title and Description container*/}
                                     <div className="mx-4">
@@ -100,9 +104,9 @@ export default function ProjectsSection() {
 
                         {/*Personal Portfolio Website*/}
                         <CarouselItem className="md:basis-1/2">
-                            <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                            <div className="p-0.5 relative rounded-2xl bg-gradient-to-r from-cyan-400 to-emerald-500">
                                 <Card
-                                    className="relative overflow-hidden w-full h-full p-0.5">
+                                    className="relative overflow-hidden w-full h-full p-0">
                                     {/*Image container*/}
                                     <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                         <Image src="/images/personal-portfolio-website.jpg"
@@ -111,6 +115,8 @@ export default function ProjectsSection() {
                                                className="object-cover"
                                                loading="eager"
                                         />
+                                        <div
+                                            className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-card to-transparent pointer-events-none"/>
                                     </div>
                                     {/*Title and Description container*/}
                                     <div className="mx-4">
@@ -140,9 +146,9 @@ export default function ProjectsSection() {
 
                         {/*Connect 4 Game with AI Opponent*/}
                         <CarouselItem className="md:basis-1/2">
-                            <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                            <div className="p-0.5 relative rounded-2xl bg-gradient-to-r from-cyan-400 to-emerald-500">
                                 <Card
-                                    className="relative overflow-hidden w-full h-full p-0.5">
+                                    className="relative overflow-hidden w-full h-full p-0">
                                     {/*Image container*/}
                                     <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                         <Image src="/images/connect-4.jpg"
@@ -151,6 +157,8 @@ export default function ProjectsSection() {
                                                className="object-cover"
                                                loading="eager"
                                         />
+                                        <div
+                                            className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-card to-transparent pointer-events-none"/>
                                     </div>
                                     {/*Title and Description container*/}
                                     <div className="mx-4">
@@ -178,9 +186,9 @@ export default function ProjectsSection() {
 
                         {/*Petition Platform*/}
                         <CarouselItem className="md:basis-1/2">
-                            <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                            <div className="p-0.5 relative rounded-2xl bg-gradient-to-r from-cyan-400 to-emerald-500">
                                 <Card
-                                    className="relative overflow-hidden w-full h-full p-0.5">
+                                    className="relative overflow-hidden w-full h-full p-0">
                                     {/*Image container*/}
                                     <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                         <Image src="/images/petition-platform.jpg"
@@ -189,6 +197,8 @@ export default function ProjectsSection() {
                                                className="object-cover"
                                                loading="eager"
                                         />
+                                        <div
+                                            className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-card to-transparent pointer-events-none"/>
                                     </div>
                                     {/*Title and Description container*/}
                                     <div className="mx-4">
@@ -223,9 +233,9 @@ export default function ProjectsSection() {
 
                         {/*Stock Market Simulator*/}
                         <CarouselItem className="md:basis-1/2">
-                            <div className="p-0.5 relative rounded-xl bg-gradient-to-r from-cyan-400 to-emerald-500">
+                            <div className="p-0.5 relative rounded-2xl bg-gradient-to-r from-cyan-400 to-emerald-500">
                                 <Card
-                                    className="relative overflow-hidden w-full h-full p-0.5">
+                                    className="relative overflow-hidden w-full h-full p-0">
                                     {/*Image container*/}
                                     <div className="relative w-full h-72 rounded-t-lg overflow-hidden">
                                         <Image src="/images/stock-market-simulator.jpg"
@@ -234,6 +244,8 @@ export default function ProjectsSection() {
                                                className="object-cover"
                                                loading="eager"
                                         />
+                                        <div
+                                            className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-t from-card to-transparent pointer-events-none"/>
                                     </div>
                                     {/*Title and Description container*/}
                                     <div className="mx-4">

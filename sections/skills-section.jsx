@@ -15,7 +15,7 @@ export default function SkillsSection() {
                         </CardHeader>
                         <CardContent>
                             <div className="flex flex-wrap gap-6">
-                                <i className="devicon-python-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-python-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 focus:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-java-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-cplusplus-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-azuresqldatabase-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
