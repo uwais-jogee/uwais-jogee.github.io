@@ -18,6 +18,7 @@ export default function SkillsSection() {
                                 <i className="devicon-python-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 focus:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-java-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-cplusplus-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-csharp-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 focus:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-azuresqldatabase-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-html5-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-css3-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
@@ -44,6 +45,7 @@ export default function SkillsSection() {
                                 <i className="devicon-bootstrap-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-tailwindcss-original text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
                                 <i className="devicon-thymeleaf-plain text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 transition-transform duration-200"></i>
+                                <i className="devicon-dot-net-plain-wordmark text-neutral-800 dark:text-neutral-200 text-4xl sm:text-5xl hover:scale-110 focus:scale-110 transition-transform duration-200"></i>
                             </div>
                         </CardContent>
                     </Card>

@@ -8,7 +8,26 @@ export default function ExperienceSection() {
 
     const data = [
         {
-            title: "October 2025 - Present",
+            title: "August 2026 - Current",
+            content: (
+                <div>
+                    <div className="flex items-center gap-6 sm:gap-12">
+                        <ExperienceLogo name="Next" icon={Icons.next}/>
+                        <div>
+                            <h3 className="text-base sm:text-xl font-bold">Trainee Software Developer</h3>
+                            <h4 className="text-sm sm:text-lg font-semibold">Next</h4>
+                        </div>
+                    </div>
+                    <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
+                        Developing scalable applications using C#, .NET and Azure, translating business requirements
+                        into reliable software solutions. Exploring AI, machine learning and automation while supporting
+                        the modernisation of legacy systems and collaborating across technical teams.
+                    </p>
+                </div>
+            ),
+        },
+        {
+            title: "October 2025 - August 2026",
             content: (
                 <div>
                     <div className="flex items-center gap-6 sm:gap-12">
@@ -19,7 +38,9 @@ export default function ExperienceSection() {
                         </div>
                     </div>
                     <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
-                        Engineering impactful software solutions through full lifecycle development and verification, combining technical expertise and teamwork to solve complex client challenges.
+                        Specialised in software testing and verification & validation, including software module and
+                        integration testing. Focused on software quality and reliability while collaborating with
+                        technical teams to solve complex client challenges. ISTQB Foundation certified.
                     </p>
                 </div>
             ),
@@ -36,7 +57,8 @@ export default function ExperienceSection() {
                         </div>
                     </div>
                     <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
-                        Applied strong communication and technical problem-solving skills to meet customer needs while providing excellent customer service.
+                        Applied strong communication and technical problem-solving skills to meet customer needs while
+                        providing excellent customer service.
                     </p>
                 </div>
             ),
@@ -53,7 +75,9 @@ export default function ExperienceSection() {
                         </div>
                     </div>
                     <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
-                        Provided critical IT support for stores nationwide by resolving incidents across POS, back-office, and mobile systems, while also contributing to data-driven vendor analysis and IT process improvement projects.
+                        Provided critical IT support for stores nationwide by resolving incidents across POS,
+                        back-office, and mobile systems, while also contributing to data-driven vendor analysis and IT
+                        process improvement projects.
                     </p>
                 </div>
             ),
@@ -70,7 +94,8 @@ export default function ExperienceSection() {
                         </div>
                     </div>
                     <p className="mt-4 sm:mt-6 mb-8 text-sm sm:text-base text-neutral-900 dark:text-neutral-100">
-                        Achieved First-Class Honours, with key modules including Advanced Programming, Big Data & Predictive Analytics, Operating Systems & Networking, and Technology & Innovation Management.
+                        Achieved First-Class Honours, with key modules including Advanced Programming, Big Data &
+                        Predictive Analytics, Operating Systems & Networking, and Technology & Innovation Management.
                     </p>
                 </div>
             ),
